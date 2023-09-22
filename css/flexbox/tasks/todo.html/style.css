@@ -1,4 +1,4 @@
-* Universal Styles */
+/* Universal Styles */
 body {
     margin: 0px;
     background-color: whitesmoke;
@@ -33,29 +33,16 @@ body {
     border: 2px solid snow;
     display: flex;
   }
-  
-  /* To Do Section */
-  .week {
-    display: inline-flex;
-    flex-grow: 3;
-    flex-direction: column;
 
-  }
-  
   .row {
     min-height: 200px;
     display: flex;
-    flex-wrap: value;
-    justify-content: space-around;
-    align-items: center;
   }
   
   .square {
     width: 125px;
     height: 125px;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
   }
   
   .day.square {
@@ -77,8 +64,8 @@ body {
   /* Reminders */
   .reminders {
     background-color: khaki;
-    flex-grow: 2;
     display: inline-flex;
+    flex-grow: 2;
   }
   
   .reminders h3 {
@@ -93,3 +80,31 @@ body {
   footer {
     font-size: 24px;
   }
+
+/*App Container*/
+.container {
+    border: 2px solid snow;
+    display: flex;
+}
+
+/*To Do Section*/
+.week {
+    display: inline-flex;
+    flex-grow: 2;
+    flex-direction: column;
+}
+.row {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: reverse;
+    justify-content:space-around;
+    align-items: center;
+}
+.square{
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
